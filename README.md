@@ -123,3 +123,8 @@ Vous devez :
 
 1. Revenir à l'état précédent avec `git reset` ou `git revert`.
 2. Expliquer la différence entre les deux commandes.
+
+
+## Exercice 6  : Explication des 2 commandes git et de mon choix :
+
+J'ai choisi d'utiliser la commande `git revert`, cela permet de garder l'historique de commit, on peut alors créer une nouvelle branche et respecter les bonnes pratiques de git en recréant une branche avec `git branch` et push dans cette nouvelle branche. `git reset` lui ne conserve pas l'historique de commit. Le choix de `git revert` est pour l'examen afin de prouver qu'un commit avait été effectué avec une modification dans le readme. Dans un cas professionnel, on aurait utiliser `git reset` car garder l'historique de ce commit dans cette branche ne sert à rien. 
