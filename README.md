@@ -1,6 +1,5 @@
 ## Consignes
 
-RANDOM TEXT
 
 
 Vous travaillez en groupe sur un dépôt GitHub pour produire un site web en Golang.
